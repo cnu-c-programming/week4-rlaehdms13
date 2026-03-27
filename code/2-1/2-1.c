@@ -2,7 +2,7 @@
 
 int main() {
   const char* date = "2026-03-24";
-  char buffe[64];
+  char buffer[64];
   int year, month, day;
 
   sscanf(date, %d-%d-%d, &year, &month, &day);
